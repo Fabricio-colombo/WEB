@@ -138,5 +138,115 @@
     margin-top: 2150px; /* Adiciona espaço acima do texto para descer */
 }
 
+#subtitulo {
+    font-family: 'Georgia', sans-serif;
+    font-size: 35px;
+    text-align: center;
+    color: #fff;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Adiciona uma sombra de texto sutil */
+    background-color: #447fa7; /* Adiciona um fundo de cor azul */
+    padding: 20px; /* Adiciona espaço interno ao título */
+    border-radius: 10px; /* Adiciona bordas arredondadas */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Adiciona uma sombra sutil ao redor do título */
+}
+/* Adiciona um efeito de transição suave ao passar o mouse */
+#subtitulo:hover {
+    transform: scale(1.05); /* Aumenta a escala ao passar o mouse */
+    transition: transform 0.3s ease-out; /* Adiciona uma transição suave para o efeito */
+}
 
+#d-subtitulo1 {
+    text-align: center;
+    font-family: 'Georgia', sans-serif;
+    font-size: 17px;
+    color: #447fa7;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    max-width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+#top-20 {
+    display: block;
+    margin: auto;
+    border: 2px solid #447fa7;
+    max-width: 80%;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+#top-20 img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    display: block;
+    margin: auto;
+}
+
+#subtitulo-conclusao {
+    font-family: 'Georgia', sans-serif;
+    font-size: 28px;
+    text-align: center;
+    color: #fff;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Adiciona uma sombra de texto sutil */
+    background-color: #447fa7; /* Adiciona um fundo de cor azul */
+    padding: 20px; /* Adiciona espaço interno ao título */
+    border-radius: 10px; /* Adiciona bordas arredondadas */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Adiciona uma sombra sutil ao redor do título */
+}
+
+#world_population {
+    display: block;
+    margin: auto;
+    border: 2px solid #447fa7;
+    max-width: 80%;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+
+#conclusao-container {
+    text-align: left;
+    font-family: 'Georgia', sans-serif;
+    font-size: 17px;
+    color: #447fa7;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    max-width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+#footer {
+    background-color: #e5dcdc;
+    padding: 30px;
+    text-align: center;
+    font-family: 'Georgia', sans-serif;
+    font-size: 19px;
+    color: #050f48;
+    border-top: 3px solid #453939;
+    border-bottom: 3px solid #453939;
+    border-radius: 90%;
+    margin-top: 100px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 50px;
+}
+
+#footer a {
+    color: #071565;
+    text-decoration: none;
+    margin: 0 40px; /* Adicione uma margem de 40px à direita e à esquerda de cada link */
+}
+
+#footer a:hover {
+    text-decoration: underline;
+}
 
