@@ -1,0 +1,142 @@
+/* Estilo básico para o menu */
+.continent-menu {
+    background-color: #3498db;
+    padding: 20px;
+    border-radius: 10px; /* Adiciona bordas arredondadas */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.continent-menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.continent-menu li {
+    display: inline-block;
+    width: 14%; /* Defina a largura dos itens da lista para ocupar 100% da largura dividida pelo número de itens */
+    text-align: center; /* Centralize o texto dentro dos itens */
+}
+
+.continent-menu a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Estilo para links quando hover */
+.continent-menu a:hover {
+    color: #ffd700; /* Cor amarela (pode ser ajustada conforme necessário) */
+    transform: scale(1.1); /* Aumenta a escala do link ao passar o mouse */
+    transition: transform 0.3s ease-out; /* Adiciona uma transição suave para o efeito */
+}
+
+/* agora vamos deixar o titulo principal mais bonito. id=titulo-principal*/
+
+#titulo-principal {
+    font-family: 'Georgia', sans-serif;
+    font-size: 45px;
+    text-align: center;
+    color: #fff;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Adiciona uma sombra de texto sutil */
+    background-color: #3498db; /* Adiciona um fundo de cor azul */
+    padding: 20px; /* Adiciona espaço interno ao título */
+    border-radius: 10px; /* Adiciona bordas arredondadas */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Adiciona uma sombra sutil ao redor do título */
+}
+
+/* Adiciona um efeito de transição suave ao passar o mouse */
+#titulo-principal:hover {
+    transform: scale(1.05); /* Aumenta a escala ao passar o mouse */
+    transition: transform 0.3s ease-out; /* Adiciona uma transição suave para o efeito */
+}
+
+/*agora vamos centralizar o mapa mundi*/
+/* Adicione este trecho ao seu arquivo CSS */
+
+#mapa-mundi {
+    display: block; /* Certifica-se de que a imagem é exibida como bloco */
+    margin: 0 auto; /* Centraliza a imagem horizontalmente */
+    max-width: 100%; /* Garante que a imagem não ultrapasse a largura do contêiner */
+    height: auto; /* Mantém a proporção da imagem */
+    border-radius: 10px; /* Adiciona bordas arredondadas, opcional */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Adiciona uma sombra sutil à imagem */
+}
+
+.introducao {
+    font-family: 'Georgia', sans-serif;
+    font-size: 17px;
+    text-align: center;
+    color: #fff;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Adiciona uma sombra de texto sutil */
+    background-color: #447fa7; /* Adiciona um fundo de cor azul */
+    padding: 10px; /* Adiciona espaço interno ao título */
+    border-radius: 10px; /* Adiciona bordas arredondadas */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Adiciona uma sombra sutil ao redor do título */
+    max-width: 1300px; /* Define a largura máxima do elemento */
+    margin-left: auto; /* Centraliza o elemento no centro da tela */
+    margin-right: auto; /* Centraliza o elemento no centro da tela */
+}
+
+#populacao-continente {
+    display: block; /* Garante que a imagem seja exibida como bloco */
+    margin: auto; /* Centraliza a imagem na tela */
+    border: 2px solid #447fa7; /* Adiciona uma borda sólida de 2 pixels com a cor azul */
+    max-width: 100%; /* Garante que a imagem não ultrapasse a largura da tela */
+    border-radius: 10px; /* Adiciona bordas arredondadas */
+}
+
+#analise-continente {
+    text-align: center;
+    font-family: 'Impact', sans-serif;
+    font-size: 27px;
+    color: #447fa7;
+    margin-top: 30px;
+}
+
+#info-continente {
+    text-align: left;
+    font-family: 'Georgia', sans-serif;
+    font-size: 19px;
+    color: #447fa7;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+#info-continente li {
+    margin-bottom: 15px; /* Adiciona espaçamento entre os itens da lista */
+}
+
+/* Adicione este trecho ao seu arquivo CSS */
+
+/* Adicione este trecho ao seu arquivo CSS */
+
+#crescimento-continente {
+    position: relative;
+    display: inline-block;
+    max-width: 50%;
+    border: 2px solid #447fa7;
+    border-radius: 10px;
+}
+
+#texto-direita {
+    position: absolute;
+    top: 50%;
+    right: 50%; /* Alterei o valor para 40% */
+    transform: translate(100%, -50%); /* Alterei o valor para 50% */
+    text-align: left;
+    font-family: 'Georgia', sans-serif;
+    font-size: 17px;
+    color: #333;
+    padding: 10px;
+    border: 2px solid #447fa7;
+    border-radius: 10px;
+    background-color: #f0f0f0;
+    margin-top: 2150px; /* Adiciona espaço acima do texto para descer */
+}
+
+
+
